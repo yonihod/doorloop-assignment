@@ -38,7 +38,7 @@ const Stats: React.FC<{restart: ()=> void }> = ({ restart}) => {
                                 </div>
                             </div>
                             <h1 className="text-4xl mt-4">
-                                Your score is {(words.filter(word => word.isCorrect).length / words.length * 100).toFixed(2)}% Words per minute!
+                                Your score is {(words.filter(word => word.isCorrect).length / words.length * 100).toFixed(2)} Words per minute!
                             </h1>
                         </div>
                         <div className="modal-footer flex justify-center">
